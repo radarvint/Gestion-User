@@ -12,7 +12,7 @@ interface User {
 }
 
 function App() {
-  const [users, setUsers] = useState<User[]>([])
+  const [users, setUsers] = useState<User[]>([]);
   const [username, setUsername] = useState('');
   const [userKey, setUserKey] = useState('');
   const [duration, setDuration] = useState('');
